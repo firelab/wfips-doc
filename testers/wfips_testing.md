@@ -148,3 +148,9 @@ request to Kyle, he will generate one.  The process is nearly the same for the
 tester, Kyle just has to add you as a user to a linux machine and fix some
 permissions.
 
+Cloned on GitHub
+----------------
+
+The most up-to-date version of this document is located
+[here](https://github.com/firelab/wfips-doc/blob/master/testers/wfips_testing.md)
+
