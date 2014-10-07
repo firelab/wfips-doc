@@ -25,8 +25,8 @@ when the machines are not being used.
 0. Email, call or tell Kyle you'd like a server created.  It should take
 less than an hour to get an IP and a user account from the base image.
 
-0. Log into the IP address using `Remote Desktop Connection` on your
-Microsoft Windows machine(`Start->Remote Desktop Connection`).
+0. Log into the IP address using `Remote Desktop Connection` on your Microsoft
+Windows machine(`Start->All Programs->Accessories->Remote Desktop Connection`).
 
 0. The username and password provided by Kyle.  You may change the password at
 any time.
