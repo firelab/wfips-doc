@@ -9,8 +9,30 @@ The system is being deployed on 'the cloud' to allow us to build transient,
 high performance workstations.  Current USFS desktops do not have the
 processing power to run simulations in a timely fashion.
 
-Rackspace
----------
+The Basics
+----------
+
+0. Email Kyle to request a server.  He will reply with an IP and password.
+
+0. Log in to your IP via Start->All Programs->Accessories->Remote Desktop
+Connection
+
+0. Your username will be your first name in all lowercase (the marks have to
+add their last initail to the end, e.g. markl/markf).
+
+0. Passwords will be emailed to you.  You may change them at anytime, although
+the machines are pretty transient right now.
+
+0. On the Desktop, there should be a shortcut to omffr_gui.  Click it and go.
+
+0. Questions, comments, etc, email Kyle, kyle at pobox dot com.
+
+- - -
+
+The Details
+-----------
+
+### Rackspace
 
 Rackspace is a prominent figure in cloud computing.  Currently, Kyle can create
 and destroy machines on demand.  Each tester will have their own cloud based
@@ -20,7 +42,7 @@ The WFIPS project is charged for uptime for each of these servers.  That being
 said, if a rough schedule can be provided to Kyle, he will destroy the servers
 when the machines are not being used.
 
-### Process for server management
+#### Process for server management
 
 0. Email, call or tell Kyle you'd like a server created.  It should take
 less than an hour to get an IP and a user account from the base image.
@@ -37,8 +59,9 @@ start up, it will be where you left of.
 
 We pay for storage too, but uptime is substantially more expensive.
 
-Running WFIPS
--------------
+- - -
+
+### Running WFIPS
 
 0. The WFIPS program will be located at: `C:/wfips/omffr_gui.exe` There will be
    a shortcut on your desktop to start the application.
@@ -47,15 +70,16 @@ Running WFIPS
 
 0. Navigate, break, abuse, etc.
 
-### Data Requirements
+#### Data Requirements
 
 WFIPS relies on a database called `omffr.sqlite` that may be located
 in one of two places: `C:/wfips/data/` or
 `C:/Users/ksshannon/Documents/Github/wfips/build/data/` Do not alter,
 delete or mess with that file, it will render WFIPS essentially inoperable.
 
-Testing Goals
--------------
+- - -
+
+### Testing Goals
 
 The main goal for this testing cycle is to identify direction for the project.
 Diane and Kyle have implemented core functionality of the system that allows
@@ -81,8 +105,9 @@ with the program to get that task done.  Does it involve clicking on maps,
 dragging things, etc.  We'd like to know the intuitive way to implement these
 interactions.
 
-When Something Goes Wrong
--------------------------
+- - -
+
+### When Something Goes Wrong
 
 Things will go wrong.  The program will bring up a mysterious window that says
 things like `std::exception()` or the little black console behind the
@@ -109,8 +134,9 @@ the issue database can be found
 to the ticketing/wiki system, you'll need a username/password for GitHub, and
 I'll need to add you to the project.
 
-New Interface Design
---------------------
+- - -
+
+### New Interface Design
 
 After our meeting on 2014-10-02, it dawned on the developers that the interface,
 as is, is too convoluted and complex.  There are too many permutations of
@@ -125,18 +151,20 @@ that may contain maps, selection/manipulation tools, or graphs and outputs.
 More verbose documentation will be available through mouse hovering and other
 means (online help eventually).
 
-Known Issues
-------------
+- - -
 
-### Windows limitations
+### Known Issues
+
+#### Windows limitations
 
 Currently the windows based spatial extraction engine is *slow*.  We are
 working on this, and it appears to be a bottleneck in file input/output in one
 of the supporting libraries.  WFIPS can extract spatial data an order of
 magnitude faster on Linux machines.
 
-Technical Details
------------------
+- - -
+
+### Technical Details
 
 WFIPS is heavily reliant on various open source applications including:
 
@@ -148,16 +176,18 @@ WFIPS is heavily reliant on various open source applications including:
 Performance of various versions of these libraries may affect performance of
 WFIPS in general.  See Known Issues for some more information.
 
-Optional Linux Workstations
----------------------------
+- - -
+
+### Optional Linux Workstations
 
 If any tester would like to try the linux flavor workstation, just make a
 request to Kyle, he will generate one.  The process is nearly the same for the
 tester, Kyle just has to add you as a user to a linux machine and fix some
 permissions.
 
-Cloned on GitHub
-----------------
+- - -
+
+### Cloned on GitHub
 
 The most up-to-date version of this document is located
 [here](https://github.com/firelab/wfips-doc/blob/master/testers/wfips_testing.md)
