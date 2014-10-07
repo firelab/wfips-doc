@@ -31,6 +31,12 @@ Microsoft Windows machine(`Start->Remote Desktop Connection`).
 0. The username and password provided by Kyle.  You may change the password at
 any time.
 
+0. When you are finished for *any* substantial amount of time, let Kyle know,
+he will take a snapshot of your machine and destroy the server.  Next time you
+start up, it will be where you left of.
+
+We pay for storage too, but uptime is substantially more expensive.
+
 Running WFIPS
 -------------
 
