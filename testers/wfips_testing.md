@@ -99,7 +99,9 @@ Testers may or may not want to login to view the status of the issues.  Kyle is
 keeping those for documentation sake, and status of the issues.  The link to
 the issue database can be found
 [here](https://github.com/firelab/wfips/issues).  An example issue can be found
-[here](https://github.com/firelab/WFIPS/issues/1).
+[here](https://github.com/firelab/WFIPS/issues/1).  If you want to have access
+to the ticketing/wiki system, you'll need a username/password for GitHub, and
+I'll need to add you to the project.
 
 New Interface Design
 --------------------
