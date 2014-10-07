@@ -1,4 +1,4 @@
-wfips-manual
+wfips-doc
 =============
 
 Documentation for WFIPS
